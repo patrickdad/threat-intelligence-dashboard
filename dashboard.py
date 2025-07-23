@@ -11,6 +11,6 @@ def fetch_abuseipdb(api_key):
     return response.json()
 
 if __name__ == "__main__":
-    API_KEY = "your_api_key_here"
+    API_KEY = "f2f7f946c489a2131bf1a2b7292ec955b974591eda2a6da6ac042c0b9d6fb7aa0009c85965bf13fb"
     data = fetch_abuseipdb(API_KEY)
     print(json.dumps(data, indent=2))
